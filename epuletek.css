@@ -24,5 +24,9 @@
 }
 
 .tortenet {
-	font-size: bold;
+	font-weight: bolder;
+}
+
+.link {
+	font-weight: bolder;
 }
