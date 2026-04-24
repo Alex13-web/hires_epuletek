@@ -1,99 +1,161 @@
 <!DOCTYPE html>
-<html>
+<html lang="hu">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<head>
-		<link rel="stylesheet" href="bootstrap.css">
-		<link rel="stylesheet" href="epuletek.css">
-	</head>
-	
-	<body>
-	<div class="background">
-		<div class="container-fluid">
-		    <div class="row">
-			<div class="col-md-10 offset-md-1">
-			<div id="felso" class="row">
-				<div class="col-md-8" id="tortenet">
-					<h1>Híres épületek</h1>
-					<p>A világ legismertebb építményei a történelem, az építészet és a turizmus szempontjából is kiemelkedő jelentőségűek.</p>
-					<h2>Története</h2>
-					<p>Az emberiség történetének legjelentősebb építményei nemcsak műszaki teljesítmények, hanem kulturális jelképek is. A híres épületek gyakran egy-egy korszak technológiai tudását, vallási vagy politikai erejét, illetve művészeti szemléletét mutatják be. Sok ilyen alkotás ma már a világörökség része, ezért megőrzésük nemzetközi jelentőségű feladat.
+	<title>Híres épületek</title>
 
-                   Az Eiffel-torony eredetileg az 1889-es párizsi világkiállításra épült, a Colosseum az ókori Róma egyik legismertebb emléke, míg a barcelonai Sagrada Família máig épülő bazilika. A világörökségi helyszínek közül több is az <div class="link"><a href="https://hu.wikipedia.org/wiki/UNESCO ">UNESCO</a></div> védelme alatt áll, így a kutatás, a felújítás és a turisztikai hasznosítás egyszerre jelenik meg velük kapcsolatban.
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="epuletek.css">
+</head>
 
-					A modern városképekben ezek az épületek gyakran tájékozódási pontként, találkozóhelyként és egy-egy ország nemzetközi arculatának meghatározó elemeként szolgálnak. Jelentőségük ezért túlmutat a funkciójukon: történelmi, kulturális és idegenforgalmi szempontból is kiemelkedőek.</p>
-				</div>
-				<div class="col-md-4">
-					<img src="epuletek.jpg" class="img-thumbnail">
-				</div>
+<body>
+
+<div class="container my-4">
+	<div class="card p-4">
+
+		<div class="row felso">
+			<div class="col-md-8" id="tortenet">
+				<h1>Híres épületek</h1>
+
+				<p>A világ legismertebb építményei a történelem, az építészet és a turizmus szempontjából is kiemelkedő jelentőségűek.</p>
+
+				<h2>Története</h2>
+
+				<p>Az emberiség történetének legjelentősebb építményei nemcsak műszaki teljesítmények, hanem kulturális jelképek is.</p>
+
+				<p>A híres épületek gyakran egy-egy korszak technológiai tudását, vallási vagy politikai erejét mutatják be.</p>
+
+				<p>Az Eiffel-torony az 1889-es párizsi világkiállításra épült, a Colosseum az ókori Róma egyik legismertebb emléke, míg a Sagrada Família máig épülő bazilika.</p>
+
+				<p>A világörökségi helyszínek közül több is az 
+				<a href="https://hu.wikipedia.org/wiki/UNESCO" target="_blank">UNESCO</a> 
+				védelme alatt áll.</p>
 			</div>
-			<div id="felso" class="row">
-				<div class="col-md-12">
-					<h2 class="kozep">Galéria</h2>
-				</div>
-			</div>
 
-			<div class="row">
-				<div class="col-md-6">
-					<img src="eiffel-torony.jpg" alt="Eiffel-torony" title="Eiffel-torony" class="img-thumbnail galeriakep"><p class="kepfelirat">Eiffel-torony</p>
-				</div>
-				<div class="col-md-6">
-					<img src="colosseum.jpg" alt="Colosseum" title="Colosseum" class="img-thumbnail galeriakep"><p class="kepfelirat">Colosseum</p>
-				</div>
-			</div>
-			
-			<div class="row">
-				<div class="col-md-12">
-					<h2>Főbb adatok</h2>
-				</div>
-				<div class="col-md-4">
-					<ul>
-						Típus: kilátótorony
-						Elhelyezkedés: Párizs
-						Ország: Franciaország
-						Magasság: 330 m
-						Anyaga: kovácsoltvas
-						Átadás éve: 1889
-					</ul>
-				</div>
-
-				<div class="col-md-4">
-				</div>
-
-				<div class="col-md-4">
-				</div>
-			</div>
-			
-			<div class="row">
-				<div class="col-md-8 offset-md-2">
-					<div class="table">
-						<table class="table table-bordered" id="tablazat">
-							<thead>
-								<tr>
-									<th>Év</th>
-									<th>Épület</th>
-									<th>Város</th>
-									<th>Ország</th>
-									<th>Stílus / típus</th>
-									<th>Világörökség</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>1889</td>
-									<td>Eiffel-torony</td>
-									<td>Párizs</td>
-									<td>Franciaország</td>
-									<td>vasszerkezetű torony</td>
-									<td>Nem</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-				</div>
+			<div class="col-md-4">
+				<img src="epuletek.jpg" alt="Híres épületek" class="img-thumbnail">
 			</div>
 		</div>
+
+		<div class="row felso">
+			<h2 class="kozep">Galéria</h2>
 		</div>
+
+		<div class="row">
+			<div class="col-md-4">
+				<img src="eiffel-torony.jpg" alt="Eiffel-torony" title="Eiffel-torony" class="img-thumbnail galeriakep">
+				<p class="kepfelirat">Eiffel-torony</p>
+			</div>
+
+			<div class="col-md-4">
+				<img src="colosseum.jpg" alt="Colosseum" title="Colosseum" class="img-thumbnail galeriakep">
+				<p class="kepfelirat">Colosseum</p>
+			</div>
+
+			<div class="col-md-4">
+				<img src="sagrada-belso.jpg" alt="Sagrada Família belső tere" title="Sagrada Família belső tere" class="img-thumbnail galeriakep">
+				<p class="kepfelirat">Sagrada Família belső tere</p>
+			</div>
 		</div>
+
+		<div class="row felso">
+			<h2>Főbb adatok</h2>
+
+			<div class="col-md-4">
+				<ul>
+					<li>Típus: kilátótorony</li>
+					<li>Elhelyezkedés: Párizs</li>
+					<li>Ország: Franciaország</li>
+					<li>Magasság: 330 m</li>
+					<li>Anyaga: kovácsoltvas</li>
+					<li>Átadás éve: 1889</li>
+				</ul>
+			</div>
+
+			<div class="col-md-4">
+				<ul>
+					<li>Típus: amfiteátrum</li>
+					<li>Elhelyezkedés: Róma</li>
+					<li>Ország: Olaszország</li>
+					<li>Befogadóképesség: ~50 000 fő</li>
+					<li>Anyaga: kő és beton</li>
+					<li>Átadás: Kr. u. 80</li>
+				</ul>
+			</div>
+
+			<div class="col-md-4">
+				<ul>
+					<li>Típus: bazilika</li>
+					<li>Elhelyezkedés: Barcelona</li>
+					<li>Ország: Spanyolország</li>
+					<li>Stílus: modernista</li>
+					<li>Tervező: Antoni Gaudí</li>
+					<li>Állapot: építés alatt</li>
+				</ul>
+			</div>
 		</div>
-	</body>
+
+		<div class="row felso">
+			<h2 class="kozep">Világörökségi helyszínek</h2>
+
+			<table class="table table-bordered kozep keret">
+				<thead class="keret">
+					<tr>
+						<th>Év</th>
+						<th>Épület</th>
+						<th>Város</th>
+						<th>Ország</th>
+						<th>Stílus</th>
+						<th>Világörökség</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1889</td>
+						<td>Eiffel-torony</td>
+						<td>Párizs</td>
+						<td>Franciaország</td>
+						<td>vasszerkezet</td>
+						<td>Nem</td>
+					</tr>
+					<tr>
+						<td rowspan="2">Ókor</td>
+						<td>Colosseum</td>
+						<td>Róma</td>
+						<td>Olaszország</td>
+						<td>amfiteátrum</td>
+						<td>Igen</td>
+					</tr>
+					<tr>
+						<td>Pantheon</td>
+						<td>Róma</td>
+						<td>Olaszország</td>
+						<td>templom</td>
+						<td>Igen</td>
+					</tr>
+					<tr>
+						<td rowspan="2">Modern kor</td>
+						<td>Sagrada Família</td>
+						<td>Barcelona</td>
+						<td>Spanyolország</td>
+						<td>bazilika</td>
+						<td>Igen</td>
+					</tr>
+					<tr>
+						<td>Operaház</td>
+						<td>Sydney</td>
+						<td>Ausztrália</td>
+						<td>modern</td>
+						<td>Igen</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+	</div>
+</div>
+
+</body>
 </html>

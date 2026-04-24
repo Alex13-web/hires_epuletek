@@ -1,32 +1,50 @@
-#felso
-{
+body {
+	background-color: #f7eddc;
+	font-family: Arial, sans-serif;
+}
+
+.felso {
 	margin-top: 30px;
 }
 
-.kozep
-{
+#tortenet {
+	font-weight: bold;
+}
+
+.kozep {
 	text-align: center;
 }
 
-.kepfelirat
-{
+.kepfelirat {
 	text-align: center;
+	font-style: italic;
 }
 
-.galeriakep
-{
-	margin: auto;
+.galeriakep {
+	height: 300px;
+	object-fit: cover;
 	display: block;
+	margin: auto;
 }
 
-.background {
-	background-color:  #f7eddc;
+a {
+	font-weight: bold;
 }
 
-.tortenet {
-	font-weight: bolder;
+/* táblázat középre */
+table th,
+table td:nth-child(1),
+table td:nth-child(4) {
+	text-align: center;
 }
 
-.link {
-	font-weight: bolder;
+/* keret */
+.keret {
+	border: 3px solid #7a5c3e !important;
+}
+
+/* kártya margó */
+.card {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
